@@ -27,10 +27,10 @@ CREATE TABLE IF NOT EXISTS Products (
 
 insert into products (name, category_id, price) values
 ('сок', 5, 7.50),
-('протеиновое печенье', 4, 5.98),
+('пшеничное печенье', 4, 9.68),
 ('редис', 1, 2.00),
-('сырок', 3, 1.26),
-('персик', 2, 2.43);
+('сметана', 3, 3.56),
+('лимон', 2, 1.23);
 
 
 CREATE TABLE IF NOT EXISTS Customers (
@@ -42,11 +42,11 @@ CREATE TABLE IF NOT EXISTS Customers (
 );
 
 insert into Customers (firstname, lastname, email, phone) values
-('Андрей', 'Пирокинезис', 'fraugruyicreive-8061@yopmail.com', '79366943731'),
-('Никита', 'Кислов', 'quajazauzedde-1779@yopmail.com', '79586517138'),
-('Олег', 'ЛСП', 'woirihikappe-5968@yopmail.com', '79817139633'),
-('Юрий', 'Каплан', 'taujetonnixe-5412@yopmail.com', '79144949026'),
-('Мики', 'Мацубара', 'frulayenovo-7003@yopmail.com', '79776858926');
+('Лилия', 'Архипов', 'zhammes@example.net', '88006334205'),
+('Данила', 'Бобров', 'kristofer88@example.net', '89221122884'),
+('Ева', 'Сорокин', 'ludwig.mertz@example.org', '89352228723'),
+('Виктория', 'Макаров', 'shemar.feeney@example.org', '89352225507'),
+('Регина', 'Фёдоров', 'barton08@example.com', '89128675133');
 
 
 
@@ -58,11 +58,11 @@ CREATE TABLE IF NOT EXISTS Orders (
 );
 
 insert into Orders (customer_id, order_date) values
-(4, '2023-02-22 03:43:18'),
-(1, '2023-08-30 14:02:48'),
-(5, '2023-10-27 01:50:40'),
+(4, '2023-02-18 03:43:18'),
+(1, '2023-08-26 14:02:48'),
+(5, '2023-10-14 01:50:40'),
 (2, '2023-10-11 05:21:38'),
-(3, '2023-06-01 20:03:14');
+(3, '2023-06-15 20:03:14');
 
 CREATE TABLE IF NOT EXISTS OrderDetails (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -75,12 +75,8 @@ CREATE TABLE IF NOT EXISTS OrderDetails (
     );
     
  insert into OrderDetails (order_id, product_id, quantity, price) values
-(4, 5, 2, 4.86 ),
+(4, 5, 3, 3.69 ),
 (2, 1, 1, 7.50),
-(1, 4, 15, 18.90),
-(5, 2, 3, 17.94),
-(3, 3, 3, 6.00);
-    
-    
-    
-    
+(1, 4, 2, 7.12),
+(5, 2, 4, 38.72),
+(3, 3, 5, 10.00);
