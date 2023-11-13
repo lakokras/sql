@@ -68,55 +68,56 @@ user_id int not null unique,
 foreign key (`user_id`) references `user` (`id_user`)
 );
 
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (1, 'Kobe', '2011-07-12', 78);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (2, 'General', '2015-06-27', 88);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (3, 'Claud', '1989-07-24', 54);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (4, 'Andre', '1983-01-23', 50);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (5, 'Vern', '1991-03-06', 72);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (6, 'Maude', '1979-07-19', 71);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (7, 'Chasity', '2007-05-13', 58);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (8, 'Rebeca', '2002-10-25', 64);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (9, 'Mayra', '1997-07-01', 60);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (10, 'Gabriel', '2020-03-27', 51);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (11, 'Laverne', '2010-09-24', 73);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (12, 'Gunnar', '1979-07-23', 10);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (13, 'Quincy', '1990-07-06', 1);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (14, 'Ofelia', '1975-07-24', 86);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (15, 'Destinee', '1976-07-30', 23);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (16, 'Hassie', '1974-07-31', 43);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (17, 'Beverly', '1994-12-26', 19);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (18, 'Bonnie', '1971-12-25', 25);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (19, 'Else', '1996-06-30', 55);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (20, 'Carlie', '1983-07-23', 83);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (21, 'Aurelie', '2001-12-27', 24);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (22, 'Deron', '1974-01-02', 98);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (23, 'Terrence', '1975-02-05', 95);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (24, 'Fern', '1977-06-15', 39);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (25, 'Gianni', '2009-09-18', 85);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (26, 'Zita', '1983-09-11', 7);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (27, 'Hilma', '1977-04-10', 26);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (28, 'Linnea', '2011-12-15', 84);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (30, 'Amiya', '1993-04-16', 18);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (31, 'Lavern', '2004-08-24', 11);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (32, 'Lincoln', '2023-02-22', 41);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (33, 'Freddy', '1973-12-19', 4);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (34, 'Clint', '1971-08-14', 31);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (35, 'Maximillia', '2020-02-17', 5);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (36, 'Jaquelin', '2005-08-26', 40);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (37, 'Levi', '2005-08-26', 3);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (38, 'Rei', '2005-08-26', 12);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (39, 'Dazai', '2005-08-26', 28);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (40, 'Earnest', '2000-01-26', 13);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (41, 'Myah', '2020-11-13', 45);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (42, 'Shinpachi', '2005-08-26', 66);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (43, 'Dorothy', '1975-06-24', 57);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (44, 'Usop', '2005-08-26', 14);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (45, 'Sally', '1974-02-17', 30);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (46, 'Okita', '2005-08-26', 96);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (47, 'Bruno', '2005-08-26', 61);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (48, 'Niko', '1976-07-27', 70);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (49, 'Kurt', '1980-02-15', 2);
-INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (50, 'Omari', '1975-12-03', 34);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (1, 'Kobe', '2011-07-12', 1);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (2, 'General', '2015-06-27', 2);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (3, 'Claud', '1989-07-24', 3);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (4, 'Andre', '1983-01-23', 4);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (5, 'Vern', '1991-03-06', 5);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (6, 'Maude', '1979-07-19', 6);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (7, 'Chasity', '2007-05-13', 7);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (8, 'Rebeca', '2002-10-25', 8);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (9, 'Mayra', '1997-07-01', 9);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (10, 'Gabriel', '2020-03-27', 10);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (11, 'Laverne', '2010-09-24', 11);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (12, 'Gunnar', '1979-07-23', 12);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (13, 'Quincy', '1990-07-06', 13);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (14, 'Ofelia', '1975-07-24', 14);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (15, 'Destinee', '1976-07-30', 15);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (16, 'Hassie', '1974-07-31', 16);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (17, 'Beverly', '1994-12-26', 17);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (18, 'Bonnie', '1971-12-25', 18);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (19, 'Else', '1996-06-30', 19);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (20, 'Carlie', '1983-07-23', 20);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (21, 'Aurelie', '2001-12-27', 21);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (22, 'Deron', '1974-01-02', 22);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (23, 'Terrence', '1975-02-05', 23);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (24, 'Fern', '1977-06-15', 24);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (25, 'Gianni', '2009-09-18', 25);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (26, 'Zita', '1983-09-11', 26);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (27, 'Hilma', '1977-04-10', 27);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (28, 'Linnea', '2011-12-15', 28);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (30, 'Amiya', '1993-04-16', 29);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (31, 'Lavern', '2004-08-24', 30);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (32, 'Lincoln', '2023-02-22', 31);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (33, 'Freddy', '1973-12-19', 32);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (34, 'Clint', '1971-08-14', 33);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (35, 'Maximillia', '2020-02-17', 34);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (36, 'Jaquelin', '2005-08-26', 35);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (37, 'Levi', '2005-08-26', 36);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (38, 'Rei', '2005-08-26', 37);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (39, 'Dazai', '2005-08-26', 38);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (40, 'Earnest', '2000-01-26', 39);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (41, 'Myah', '2020-11-13', 40);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (42, 'Shinpachi', '2005-08-26', 41);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (43, 'Dorothy', '1975-06-24', 42);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (44, 'Usop', '2005-08-26', 43);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (45, 'Sally', '1974-02-17', 44);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (46, 'Okita', '2005-08-26', 45);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (47, 'Bruno', '2005-08-26', 46);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (48, 'Niko', '1976-07-27', 47);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (49, 'Kurt', '1980-02-15', 48);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (50, 'Omari', '1975-12-03', 49);
+INSERT INTO `profile` (`id_prof`, `username`, `birthday`, `user_id`) VALUES (50, 'Kurapika', '1975-01-03', 50);
 
 create table if not exists `channels` (
 id_channel int auto_increment not null unique,
@@ -471,7 +472,7 @@ INSERT INTO `esports` (`id_esports`, `name`, `upd_date`) VALUES (49, 'nemo', '20
 INSERT INTO `esports` (`id_esports`, `name`, `upd_date`) VALUES (50, 'a', '1987-05-24');
 
 create table if not exists `streams` (
-id_streams int primary key auto_increment not null uniquint not null
+id_streams int primary key auto_increment not null
 );
 
 INSERT INTO `streams` (`id_streams`, `duration`) VALUES (1, 4);
